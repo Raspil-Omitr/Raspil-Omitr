@@ -1,0 +1,702 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;font-family: 'Lato', sans-serif;}
+
+/*landing-page-styling-starts*/
+.big .landing-page-section{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../images/landing page/iPhone XR, XS Max, 11 – 7.png');
+    background-repeat:no-repeat;
+    background-position:100% 100%;
+    /*background-size: 700px 700px;*/
+    background-size: 45% 90%;
+}
+/*navbar-styling-starts*/
+.big .navbar-div{
+	width: 100%;
+	height: 10vh;
+}
+.big .navbar-brand{
+	width: 30%;
+	height: 10vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.big .logo{
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 62px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.big .omitr{
+  	margin-left: 20px;
+  	-webkit-text-stroke: 2px #464646;
+  	font-family: Lato;
+  	font-size: 2.7rem;
+  	font-weight: bold;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: 1.21;
+  	letter-spacing: normal;
+  	color: #464646;
+}
+.big .nav-item a{
+	font-size: 1.4rem;
+  	font-weight: bold;
+  	font-stretch: normal;
+  	font-style: normal;
+  	margin-right: 40px;
+  	line-height: 1.22;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #333333;
+}
+/*content styling starts*/
+
+.big .header-section{
+	width: 100%;
+}
+.big .content-container-landing-page{
+	margin-top: 63px;
+	margin-left: 140px;
+}
+.big .rectangle{
+	height: 30px;
+	width: 30px;
+	border-radius: 7px;
+	background-color: #259fb5;
+	position: relative;
+}
+.big .circle{
+	height:15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.big .content{
+	display: flex;
+	align-items: center;
+}
+.big .content-2{
+	margin-top: 100px;
+}
+.big .content-container-landing-page h3{
+	font-size:2.3rem;
+	font-family: 'Lato';
+	font-weight: bold;
+	line-height: 1.2;
+	color:#333333;
+	margin-left: 15px;
+	position: relative;
+	-webkit-text-stroke: 1px #333333;
+}
+.big .content-container-landing-page h3::before{
+	content: "";
+	position: absolute;
+	top:95%;
+	left:-12%;
+	width:0;
+	height:350%;
+	border-left: dashed 5px #259fb5;
+}
+.big .content-container-landing-page h1{
+	font-size: 2.7rem;
+	font-family: 'Lato';
+	font-weight: bold;
+	line-height: 1.2;
+	color:#333333;
+	margin-left: 15px;
+	-webkit-text-stroke: 2px #333333;
+}
+.big .content-container-landing-page p{
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.21;
+	margin-left: 45px;
+	margin-top: 8px;
+}
+.big .google-play-store{
+	width: 195px;
+ 	height: 70px;
+ 	margin-top: 30px;
+ 	margin-left: 25px;
+ 	cursor: pointer;
+}
+.big .apple-play-store{
+	width: 170px;
+  	height: 46px;
+  	margin-top: 30px;
+  	margin-left: 57px;
+  	border-radius: 7px;
+  	cursor: pointer;
+}
+.big .bottom-pic{
+	height:225px;
+	width: 400px;
+	object-fit: contain;
+	overflow: hidden;
+	position: relative;
+}
+
+.big .landing-page-bottom-pic{
+	height: inherit;
+	width: inherit;
+	left: -100px;
+	bottom: -50px;
+	position: absolute;
+	transform: rotate(225deg);
+}
+@media only screen and (max-width:1024px){
+	.big .nav-item a{
+		font-size: 1.2rem;
+		text-align: center;
+		margin-right: 10px;
+	}
+}
+/*landing page styling ends*/
+
+/*vision page styling starts*/
+.big .vision-container{
+	width: 100%;
+  	height: 100vh;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.big .container-for-vision{
+	width: 100%;
+	height: 400px;
+	background-color: #259fb5;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23ffffff' fill-opacity='0.3'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.big .vision{
+  	font-family: Lato;
+  	font-size: 2.2rem;
+  	font-weight: bold;
+  	line-height: 1.2;
+  	color: #ffffff;
+  	text-align: center;
+  	margin-top: 15px;
+}
+.big .item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+.big #vision-row{
+	width: 95vw;
+	margin-left: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.big .card-vision{
+	height:270px;
+	width: 240px;
+  	border-radius: 20px;
+  	background-color: #ffffff;
+}
+.big .card-image-vision{
+	height: 160px;
+	border-radius: 20px;
+}
+.big .card-body-vision{
+	padding-top: 5px;
+}
+.big .card-title{
+	text-align: center;
+  	font-family: Lato;
+  	font-size: 1.1rem;
+ 	font-weight: bold;
+  	line-height: 1.2;
+  	color: #333333;
+}
+.big .card-text-vision{
+	font-family: Lato;
+  	font-size: 0.9rem;
+  	line-height: 1.2;
+  	text-align: center;
+  	color: #333333;
+}
+/*vision styling ends*/
+
+/*supply-chain styling starts*/
+.big .supply-chain{
+	height: 100vh;
+	width: 100%;
+	background-color: #f5f5f5;
+	overflow-x: hidden;
+}
+.big .supply-chain-heading{
+	text-align: center;
+	width: 100%;
+	height:15vh;
+}
+.big .supply-chain-heading h1{
+  	font-family: Lato;
+  	font-size: 2.3rem;
+  	font-weight: bold;
+  	line-height: 1.2;
+  	color: #454545;
+  	padding-top: 20px;
+  	padding-right: 20px;
+  	/*margin-bottom: 9px;*/
+}
+.big .supply-chain-heading p{
+	font-family: Lato;
+  	font-size: 1rem;
+  	line-height: 1.2;
+  	text-align: center;
+  	color: #c5c5c5;
+}
+.big .supply-chain-container{
+	margin-left: 65px;
+	margin-top: 30px;
+}
+.big .left-row{
+	height: 530px;
+	width: 310px;
+	border-radius: 20px;
+  	background-color: #259fb5;
+  	padding-right: -10px;
+}
+.big .left-row-items{
+	margin-left: 50px;
+}
+.big .left-row-items-2{
+	transform: translateY(-36px);
+}
+.big .card-supply-chain{
+	width: 180px;
+  	height: 180px;
+  	border-radius: 4px;
+  	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.16);
+  	border: solid 0.1px #0c0c0c;
+  	background-color: #ffffff;
+  	margin-top: 50px;
+  	/*margin-left: 100px;*/
+}
+.big .card-image-supplychain{
+	width: 120.8px;
+  	height: 140px;
+  	align-self: center;
+  	object-fit: contain;
+}
+.big .card-body-supplychain{
+	padding-top: 5px;
+}
+.big .title-supply-chain{
+	font-size: 1.1rem;
+  	font-weight: 500;
+  	line-height: 1.33;
+  	text-align:center;
+  	color: #202a2e;
+}
+.big .inner:before{
+	content: "";
+	position: absolute;
+	top:50%;
+	left:100%;
+	width:100%;
+	height:2px;
+	border-bottom: 2px dashed #363636;
+}
+.big .outer:before{
+	content: "";
+	position: absolute;
+	top:100%;
+	left:50%;
+	width:2px;
+	height:100%;
+	border-right: 2px dashed #363636;	
+}
+@media only screen and (max-width: 1200px){
+	.big .supply-chain-container{
+		margin-left:60px; 
+	}
+	.big .left-row{
+		width:220px;
+		height: 440px;
+	}
+	.big .left-row-items{
+		margin-left:25px;
+	}
+	.big .card-supply-chain{
+		width: 135px;
+		height: 135px;
+	}
+	.big .card-image-supplychain{
+		width: 80px;
+		height: 90px;
+	}
+	.big .card-body-supplychain{
+		padding-top: 0px;
+	}
+	.big .title-supply-chain{
+		font-size: 0.9rem;
+	}
+}
+@media only screen and (min-width:1600px){
+	.big .inner:before{
+		width: 150%;
+	}
+}
+@media only screen and (min-width: 2000px){
+	.big .supply-chain-container{
+		margin: 30px auto; 
+	}
+	.big .inner:before{
+		width: 150%;
+	}
+}
+/*supply-chain styling ends*/
+
+/*recipes-styling-starts*/
+.big .recipes-section{
+	width: 95%;
+	height: 100vh;
+	background-color: #ffffff;
+	background-image:url('../images/Recipes carousel/iPhone XR, XS Max, 11 – 13.png');
+    background-repeat:no-repeat;
+    background-position:5% 100%;
+    background-size: 30% 80%;
+}
+.big .upper-page-recipe{
+	display: flex;
+}
+.big .recipes-heading{
+	text-align: center;
+	width:100%;
+	height:15vh;
+}
+.big .recipes-heading h1{
+  	font-family: Lato;
+  	font-size: 2.3rem;
+  	font-weight: bold;
+  	line-height: 1.2;
+  	color: #454545;
+  	padding-top: 20px;
+  	margin-left: 190px;
+  	/*margin-bottom: 9px;*/
+}
+.big .recipes-heading p{
+	font-family: Lato;
+  	font-size: 1rem;
+  	line-height: 1.2;
+  	text-align: center;
+  	color: #c5c5c5;
+  	margin-left: 190px;
+}
+.big .top-right-recipe-pic{
+	height:200px;
+	width: 240px;
+	right: -75px;
+	position: relative;
+	object-fit: contain;
+	overflow: hidden;
+}
+.big .pngwebsitepic{
+	height: 250px;
+	width: 300px;
+	right: -100px;
+	top:-80px;
+	position: absolute;
+}
+@media only screen and (max-width: 1200px){
+	.big .top-right-recipe-pic{
+		height:150px;
+		width: 170px;
+		right:-48px;
+		position: relative;
+		object-fit: contain;
+		overflow: hidden;
+	}
+	.big .pngwebsitepic{
+		height: 200px;
+		width: inherit;
+		right: -48px;
+		top:-50px;
+		position: absolute;
+		align-self: center;
+		overflow-x: hidden;
+		transform: translateX(-20px);
+	}
+}
+@media only screen and (min-width: 1200px){
+	.big .top-right-recipe-pic{
+		height:200px;
+		width: 240px;
+		right: -75px;
+		position: relative;
+		object-fit: contain;
+		overflow: hidden;
+	}
+	.big .pngwebsitepic{
+		height: 250px;
+		width: 300px;
+		right: -100px;
+		top:-80px;
+		position: absolute;
+	}
+}
+@media only screen and (min-width:1670px){
+	.big .top-right-recipe-pic{
+		transform: translateX(10px);
+	}
+}
+.big .recipes-written-content{
+	/*margin-left:600px;*/
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+}
+.big .recipes-written-content h1{
+	-webkit-text-stroke: 1px #333333;
+	font-family: Lato;
+	font-size: 2.6rem;
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: right;
+	color: #333333;
+	width: 100%;
+}
+.big .dot{
+	font-size: 4rem;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.big .recipes-written-content p{
+  	font-family: Lato;
+  	font-size: 1.3rem;
+  	font-weight: bold;
+  	line-height: 1.21;
+  	text-align: right;
+  	color: #333333;
+  	width: 100%;
+}
+.big .page-btns-recipes{
+	margin-top: 25px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.big .google-play-store-recipes{
+	width: 195px;
+ 	height: 70px;
+ 	cursor: pointer;
+}
+.big .apple-play-store-recipes{
+	width: 170px;
+  	height: 46px;
+  	margin-left: 35px;
+  	border-radius: 7px;
+  	cursor: pointer;
+}
+.big .carousel{
+	width: 50%;
+	margin-left: 53vw;
+	margin-top: 25px;
+}
+.big .recipe-image-div{
+	height:80px;
+	width: 80px;
+	object-fit: contain;
+}
+@media only screen and (max-width: 1200px){
+	.big .carousel{
+		margin-left: 48vw;
+	}
+	.big .recipe-image-div{
+		height:70px;
+		width: 70px;
+		object-fit: contain;
+	}
+}
+.big .recipe-image-div:hover{
+	transform: scale(1.25);
+}
+.big .recipe-images{
+	height: inherit;
+	width: inherit;
+}
+.big .carousel .blur{
+	filter: blur(0.8px);
+} 
+/*recipes-styling-ends*/
+
+/*omitr-kisaan styling starts*/
+.big .omitr-kisaan{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../images/Kisan/Kisan 1.png');
+    background-repeat:no-repeat;
+    background-position:100% 100%;
+    background-size: 45% 80%;
+}
+.big .upper-section{
+	display: flex;
+	justify-content: center;
+}
+.big .omitr-heading-kisaan{
+	padding-right: 180px;
+	text-align: center;
+	width:100%;
+	height:15vh;
+}
+.big .omitr-heading-kisaan h1{
+  	font-family: Lato;
+  	font-size: 2.3rem;
+  	font-weight: bold;
+  	line-height: 1.2;
+  	color: #454545;
+  	padding-top: 18px;
+}
+.big .omitr-heading-kisaan p{
+  	font-family: Lato;
+  	font-size: 1.2rem;
+  	line-height: 1.2;
+  	letter-spacing: normal;
+  	color: #454545;
+}
+.big .logo-sun{
+	height:180px;
+	width: 180px;
+	object-fit: contain;
+	overflow: hidden;
+}
+.big .logo-sun-pic{
+	height: inherit;
+	width: inherit;
+	position: absolute;
+}
+.big .bottom-pics{
+	display: flex;
+}
+.big .left-bottom{
+	height:157px;
+	width: 150px;
+	margin-top: 160px;
+	margin-left:-100px;
+	position: relative;
+	object-fit: contain;
+}
+.big .left-bottom-pic{
+	height: inherit;
+	width: inherit;
+	position: absolute;
+}
+@media only screen and (max-width: 1024px){
+	.big .left-bottom{
+		margin-top: 167px;
+	}
+}
+/*omitr-kisaan styling ends*/
+
+/*omitr-business-styling starts*/
+.big .omitr-business{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../images/Mitra/iPhone XR, XS Max, 11 – 8.png');
+    background-repeat:no-repeat;
+    background-position:100% 100%;
+    /*background-size: 700px 700px;*/
+    background-size: 45% 90%;
+}
+.big .omitr-heading{
+	text-align: center;
+	width:100%;
+	height:15vh;
+}
+.big .omitr-heading h1{
+  	font-family: Lato;
+  	font-size: 2.3rem;
+  	font-weight: bold;
+  	line-height: 1.2;
+  	color: #454545;
+  	padding-top: 18px;
+}
+.big .omitr-heading p{
+  	font-family: Lato;
+  	font-size: 1.2rem;
+  	line-height: 1.2;
+  	letter-spacing: normal;
+  	color: #454545;
+}
+.big .omitr-content-container{
+	height: 80vh;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.big .omitr-content-container h3{
+	-webkit-text-stroke: 1px #333333;
+	font-size: 2.1rem;
+	margin-bottom:25px;
+	font-weight: bold;
+	line-height: 1.21;
+	text-align: left;
+  	color: #333333;
+}
+.big .be-our-omitr{
+	width: 400px;
+  	height: 102px;
+  	font-size: 1.1rem;
+  	margin-bottom: 0;
+  	font-weight: bold;
+  	line-height: 1.21;
+  	text-align: left;
+  	color: #333333;
+}
+.big .google-play-store-omitr{
+	width: 195px;
+ 	height: 70px;
+ 	margin-left: -10px;
+ 	cursor: pointer;
+}
+.big .apple-play-store-omitr{
+	width: 170px;
+  	height: 46px;
+  	margin-left: 57px;
+  	border-radius: 7px;
+  	cursor: pointer;
+}
+.big .omitr-section-cards-display{
+	width: 50%;
+	margin-top: 50px;
+}
+.big .card-omitr{
+	width: 110px;
+  	height: 130px;
+  	border-radius: 25px;
+  	margin-top: 10px;
+  	background-color: #f5f5f5;
+}
+.big .card-image-omitr{
+	width:75px;
+	height:65px;
+	align-self: center;
+	margin-top: 10px;
+	border-radius: 25px; 
+}
+.big .card-body-omitr{
+	padding-top: 10px;
+}
+.big .card-text-omitr{
+  	font-family: Lato;
+  	font-size: 0.7rem;
+  	line-height: 1.2;
+  	text-align: center;
+  	color: #6d6d6d;
+}
+.big .text-special{
+	font-size: 0.75rem;
+  	font-weight: bold;
+}
+/*omitr-business styling ends*/
